@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box; /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. 
+      If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. 
+      https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry/borderBoxSize */
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    margin: 0;
+  }
+
+  a{
+	text-decoration: none;
+    color: #6A4A35;
+}
+
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: "Nunito";
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #FFF9EB;
+    color: #6A4A35 ;
+  }
+
+  .button {
+	color: #6A4A35;
+	background-color: #FFB40F;
+	font-size: 18px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+  
+  h1{
+  font-size: 3rem;
+  font-family: "Nunito";
+  color: #ffffff;
+  text-shadow: rgb(72, 72, 72) 1px 0 5px;
+  }
+
+  h2{
+    font-size: 2rem;
+    font-family: "Nunito";
+    color: #6A4A35;
+    margin-left: 20px;
+  }
+
+  .home_hero {
+    min-height: 80vh;
+    background-image: url(../img/hero_banner.png);
+    padding-top:300px;
+    padding-left: 50px;
+  } 
+
+  .row{
+    display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	flex-wrap: wrap;
+  }
+
+  .col-sm-3{
+    height: 250px;
+	width: 300px;
+	background-color: #FFB40F;
+	border-radius: 10px;
+	margin: 10px;
+    padding: 15px;
+    color: #6A4A35;
+  }
+
+  .blog_home{
+    min-height: 20vh;
+	background-color: #FFF9EB;
+	border-radius: 10px;
+	margin: 10px;
+    padding: 15px;
+    color: #6A4A35;
+    padding: 50px;
+  }
+
+  .give_home{
+    display:flex;
+   flex-wrap: wrap;
+    min-height: 20vh;
+	background-color: #FFF9EB;
+	border-radius: 10px;
+	margin: 10px;
+    padding: 15px;
+    color: #6A4A35;
+    padding: 50px;
+
+  }
+
+
+
