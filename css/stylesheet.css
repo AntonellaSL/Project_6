@@ -299,7 +299,96 @@
 
    /* ---------------------- END OF OUR SERVICES ---------------------- */
 
+/* ---------------------- CONTACT ---------------------- */
 
+
+   .content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h2 {
+    color: #694a38;
+    font-size: 36px;
+    margin: 40px 0 20px 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 10px 0 10px 40px;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+.gallery {
+    margin: 40px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-left: 0; /* Reset margin since gallery is centered */
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+.links {
+    margin: 40px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.links h2 {
+    margin-left: 0;
+    color: #6b9359;
+}
+
+.links > p {
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.links li {
+    margin: 15px 0;
+    transition: transform 0.3s ease;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: #6b9359;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #4a7c39;
+}
+
+.links a p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* ---------------------- end of contact ---------------------- */
 
   /* ---------------------- FOOTER ---------------------- */ 
 
