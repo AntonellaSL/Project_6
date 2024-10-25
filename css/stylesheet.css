@@ -19,11 +19,11 @@
   nav {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     justify-content: space-evenly;
     width: 100%;
     font-family: "Nunito";
     font-weight: bold;
-    padding: 1rem;
     background-color: #FFF9EB;
     color: #6A4A35 ;
   }
@@ -76,28 +76,119 @@
     color: #6A4A35;
   }
 
-  .blog_home{
-    min-height: 20vh;
-	background-color: #FFF9EB;
-	border-radius: 10px;
-	margin: 10px;
-    padding: 15px;
-    color: #6A4A35;
-    padding: 50px;
-  }
+   /* ---------------------- BLOG ---------------------- */ 
+   .blog-section {
+    background-color: #6b9359;
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
 
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-content {
+    flex: 0 1 60%;
+}
+
+.blog-visual {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog-title {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+.blog-description {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.blog-icon {
+    width: 60px;
+    height: 60px;
+
+}
+
+
+  
+
+   /* ---------------------- END OF BLOG ---------------------- */ 
   .give_home{
     display:flex;
    flex-wrap: wrap;
     min-height: 20vh;
-	background-color: #FFF9EB;
-	border-radius: 10px;
-	margin: 10px;
+	  background-color: #FFF9EB;
+	  border-radius: 10px;
+	  margin: 10px;
     padding: 15px;
     color: #6A4A35;
     padding: 50px;
-
   }
+
+  /* ---------------------- FOOTER ---------------------- */ 
+
+  .footer {
+    background-color: #faf6f1;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-section {
+    color: #333;
+}
+
+.footer-section h3 {
+    color: #4a7c39;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+ /* ---------------------- END OF FOOTER ---------------------- */ 
+
+ 
 
 
 
