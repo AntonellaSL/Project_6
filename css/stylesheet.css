@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box; /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. 
+      If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. 
+      https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry/borderBoxSize */
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    margin: 0;
+  }
+
+  a{
+	text-decoration: none;
+    color: #6A4A35;
+}
+
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: "Nunito";
+    font-weight: bold;
+    background-color: #FFF9EB;
+    color: #6A4A35 ;
+  }
+
+  .button {
+	color: #6A4A35;
+	background-color: #FFB40F;
+	font-size: 18px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+  
+  h1{
+  font-size: 3rem;
+  font-family: "Nunito";
+  color: #ffffff;
+  text-shadow: rgb(72, 72, 72) 1px 0 5px;
+  }
+
+  h2{
+    font-size: 2rem;
+    font-family: "Nunito";
+    color: #6A4A35;
+    margin-left: 20px;
+  }
+
+  .home_hero {
+    min-height: 80vh;
+    background-image: url(../img/hero_banner.png);
+    padding-top:300px;
+    padding-left: 50px;
+  } 
+
+  .row{
+    display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	flex-wrap: wrap;
+  }
+
+  .col-sm-3{
+    height: 250px;
+	width: 300px;
+	background-color: #FFB40F;
+	border-radius: 10px;
+	margin: 10px;
+    padding: 15px;
+    color: #6A4A35;
+  }
+
+   /* ---------------------- BLOG ---------------------- */ 
+   .blog-section {
+    background-color: #6b9359;
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-content {
+    flex: 0 1 60%;
+}
+
+.blog-visual {
+    flex: 0 1 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog-title {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+.blog-description {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.blog-icon {
+    width: 60px;
+    height: 60px;
+
+}
+   /* ---------------------- END OF BLOG ---------------------- */ 
+
+
+    /* ---------------------- GIVE ---------------------- */ 
+    .donation-section {
+      background-color: #faf6f1;
+      padding: 80px 20px;
+      font-family: Arial, sans-serif;
+  }
+  
+  .donation-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+  }
+  
+  .donation-content {
+      padding-right: 40px;
+  }
+  
+  .donation-title {
+      color: #694a38;
+      font-size: 48px;
+      margin: 0 0 30px 0;
+      font-weight: bold;
+  }
+  
+  .donation-text {
+      color: #694a38;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+  }
+  
+  .donate-button {
+      display: inline-block;
+      background-color: #ffc107;
+      color: #333;
+      padding: 15px 40px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .donation-image {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      overflow: hidden;
+  }
+  
+  .donation-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+ 
+
+    /* ---------------------- END OF GIVE ---------------------- */ 
+
+    /* ---------------------- ABOUT US ---------------------- */ 
+
+.aboutus_hero {
+    min-height: 80vh;
+    background-image: url(../img/aboutuspage_banner.jpeg);
+    padding-top:300px;
+    padding-left: 50px;
+  } 
+
+  .section-01{
+      padding: 80px 20px;
+      font-family: Arial, sans-serif;
+  }
+
+  .section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.section-content{
+    padding-right: 40px;
+}
+
+.section-title{
+    color: #694a38;
+    font-size: 48px;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+}
+
+.section-text{
+    color: #694a38;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.section01-image{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.section01-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section-02{
+    background-color: #694a38;
+    padding: 80px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section02-title{
+    color: white;
+    font-size: 48px;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+}
+
+.section02-text{
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+
+}
+
+   /* ---------------------- END OF ABOUT US ---------------------- */ 
+
+   /* ---------------------- OUR SERVICES ---------------------- */
+
+   .ourservices_hero {
+    min-height: 80vh;
+    background-image: url(../img/ourservices_banner.jpg);
+    padding-top:300px;
+    padding-left: 50px;
+  } 
+
+  .outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .inner-container {
+    margin-top: 1rem;
+    width: 80%;
+  }
+
+  .col-sm-12{
+	background-color:#628C52;
+    width: 1200px;
+	
+	margin: 10px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+
+  }
+
+   /* ---------------------- END OF OUR SERVICES ---------------------- */
+
+
+
+  /* ---------------------- FOOTER ---------------------- */ 
+
+  .footer {
+    background-color: #faf6f1;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-section {
+    color: #333;
+}
+
+.footer-section h3 {
+    color: #4a7c39;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+ /* ---------------------- END OF FOOTER ---------------------- */ 
+
+ 
+
+
+
