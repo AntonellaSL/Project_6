@@ -99,7 +99,7 @@
 }
 
 .blog-visual {
-
+    flex: 0 1 30%;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -122,22 +122,71 @@
     height: 60px;
 
 }
-
-
-  
-
    /* ---------------------- END OF BLOG ---------------------- */ 
-  .give_home{
-    display:flex;
-   flex-wrap: wrap;
-    min-height: 20vh;
-	  background-color: #FFF9EB;
-	  border-radius: 10px;
-	  margin: 10px;
-    padding: 15px;
-    color: #6A4A35;
-    padding: 50px;
+
+
+    /* ---------------------- GIVE ---------------------- */ 
+    .donation-section {
+      background-color: #faf6f1;
+      padding: 80px 20px;
+      font-family: Arial, sans-serif;
   }
+  
+  .donation-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+  }
+  
+  .donation-content {
+      padding-right: 40px;
+  }
+  
+  .donation-title {
+      color: #694a38;
+      font-size: 48px;
+      margin: 0 0 30px 0;
+      font-weight: bold;
+  }
+  
+  .donation-text {
+      color: #694a38;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+  }
+  
+  .donate-button {
+      display: inline-block;
+      background-color: #ffc107;
+      color: #333;
+      padding: 15px 40px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .donation-image {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      overflow: hidden;
+  }
+  
+  .donation-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+ 
+
+    /* ---------------------- END OF GIVE ---------------------- */ 
+
 
   /* ---------------------- FOOTER ---------------------- */ 
 
